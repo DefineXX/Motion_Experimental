@@ -4,7 +4,13 @@
 
 body {
   margin: 0;
-  background-color: #0F0F0F;
+  background-color: #0f0f0f;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .container {
@@ -14,4 +20,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.exit-container {
+  width: 100px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
 }
