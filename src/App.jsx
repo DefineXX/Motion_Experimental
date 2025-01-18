@@ -1,10 +1,10 @@
-import Enter from './components/Basic/Enter';
+import Gesture from './components/Basic/Gesture';
 import './index.css';
 
 function App() {
   return (
     <div className="container">
-      <Enter />
+      <Gesture />
     </div>
   );
 }
