@@ -1,10 +1,10 @@
-import HTMLContent from './components/HTML/HTMLContent';
+import Spring from './components/Special/Spring';
 import './index.css';
 
 function App() {
   return (
     <div className="container">
-      <HTMLContent />
+      <Spring />
     </div>
   );
 }

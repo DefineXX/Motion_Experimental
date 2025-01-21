@@ -1,0 +1,27 @@
+.spring-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #4ff0b7;
+  border-radius: 10px;
+  transform: translateX(-100%);
+}
+
+.box[data-state='true'] {
+  transform: translateX(100%) rotate(180deg);
+}
+
+.spring-container button {
+  background-color: #4ff0b7;
+  color: #0f1115;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
