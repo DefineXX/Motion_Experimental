@@ -1,10 +1,10 @@
-import Exit from './components/Basic/Exit';
+import HTMLContent from './components/HTML/HTMLContent';
 import './index.css';
 
 function App() {
   return (
     <div className="container">
-      <Exit />
+      <HTMLContent />
     </div>
   );
 }
