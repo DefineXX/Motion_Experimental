@@ -1,10 +1,11 @@
-import Spring from './components/Special/Spring';
+import Keyframes from './components/Special/Keyframes';
+
 import './index.css';
 
 function App() {
   return (
     <div className="container">
-      <Spring />
+      <Keyframes />
     </div>
   );
 }
