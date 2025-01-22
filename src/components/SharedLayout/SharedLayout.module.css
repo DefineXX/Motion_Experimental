@@ -1,0 +1,85 @@
+.container {
+  width: 480px;
+  height: 60vh;
+  max-height: 360px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.nav {
+  background: #fdfdfd;
+  padding: 5px 5px 0;
+
+  border-bottom: 1px solid #eeeeee;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.tabsStyles {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.tabsContainer {
+  width: 100%;
+  display: flex;
+}
+
+.tab {
+  position: relative;
+
+  width: 100%;
+  min-width: 0;
+  height: 44px;
+  padding: 10px 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+
+  color: #0f1115;
+  background: #ffffff;
+
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.underlinee {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  right: 0;
+
+  height: 2px;
+  background: #0d63f8;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.icon {
+  font-size: 128px;
+}
