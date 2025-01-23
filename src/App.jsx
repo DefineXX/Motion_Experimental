@@ -1,11 +1,11 @@
-import SharedLayout from './components/SharedLayout/SharedLayout';
+import Toggle from './components/Layout/Toggle/Toggle';
 
 import './index.css';
 
 function App() {
   return (
     <div className="container">
-      <SharedLayout />
+      <Toggle />
     </div>
   );
 }
